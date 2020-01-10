@@ -406,7 +406,7 @@ Object.keys(appNodes).forEach(key => {
 if (!fullscreenEnabled()) {
     appNodes.fullscreenFormOption.classList.add('remove');
 }
-
+ 
 // First render is called in init()
 function renderApp(state) {
     const pauseBtnIcon = `#icon-${state.paused ? 'play' : 'pause'}`;
